@@ -1,0 +1,97 @@
+/* Global Defaults */
+* {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+}
+
+/* Window & Container Background */
+QWidget {
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+/* Window Headers */
+QLabel {
+    font-weight: bold;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #3b78c2;
+}
+
+QPushButton:pressed {
+    background-color: #3367ab;
+}
+
+/* Form Fields */
+QLineEdit, QTextEdit {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 1px solid #4A90E2;
+    background-color: #fdfefe;
+}
+
+/* Table Styles */
+QTableWidget {
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    gridline-color: #e0e0e0;
+    selection-background-color: #d6eaff;
+    selection-color: #000;
+}
+
+QTableWidget::item {
+    padding: 6px;
+}
+
+QHeaderView::section {
+    background-color: #4A90E2;
+    color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+/* Message Boxes */
+QMessageBox {
+    background-color: #fafafa;
+}
+
+QMessageBox QLabel {
+    font-size: 14px;
+}
+
+/* Dialog Title Styles */
+QDialog {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+/* Optional: Shadow-style frame */
+QFrame {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+/* Checkbox and Radio buttons */
+QCheckBox, QRadioButton {
+    padding: 4px;
+}
